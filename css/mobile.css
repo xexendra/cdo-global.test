@@ -1,0 +1,839 @@
+@media screen and (max-width: 1919px) { 
+    body {
+        width: 100%;
+    }
+    .container {
+        width: 77%;
+    }
+
+    /* Header */
+    .header-menu__left-group {
+        width: 80%;
+    }
+
+    .header__main-part {
+        padding-bottom: 8%;
+    }
+    
+    .header__main-part {
+        background-position: top right;
+    }
+
+    .header__content {
+        width: 96%;
+        margin: 4% auto 0;
+    }
+    
+    .header__center-part {
+        width: 79%;
+    }
+
+    .header__content-title {
+        width: 70%;
+    }
+
+    .header__content-text {
+        width: 62%;
+    }
+
+    .header__play-button {
+        top: 25%;
+        right: 20%;
+        width: 149px;
+        height: 149px;
+    }
+    
+    /* Блок "Персоны" */
+    .persons__item {
+        width: calc((100% / 3) - 20px);
+    }
+    
+    .persons__text {
+        margin-left: 15px;
+        padding-top: 10%;
+    }
+    
+    /* Блок "Новые программы" */
+    .new-programs__title {
+        font-size: 48px;
+    }
+    
+    /* Карточки с описанием программ */
+    .new-programs__cards {
+        margin-top: 15px;
+    }
+
+    .new-programs__item {
+        margin-bottom: 30px;
+        width: calc((100% / 2) - 10px);
+    }
+
+    .new-programs__item {
+        padding: 20px 20px 25px 20px;
+    }
+
+    .item-cover-top {
+        min-height: 120px;
+    }
+
+    .item-cover-bottom {
+        min-height: 145px;
+    }
+
+    .item-time__image {
+        height: 14px;
+    }
+
+    .item__name {
+        margin: 0;
+        margin-top: 15px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #2F2B38;
+    }
+
+    .item-raiting__star {
+        width: 18px;
+        height: 18px;
+        margin-right: 2px;
+    }
+
+    .item-raiting__num {
+        margin: 6px 0 0 11px;
+        font-size: 12px;
+    }
+
+    .item-price {
+        font-size: 14px;
+    }
+
+    .item-description {
+        margin: 5px 0;
+        font-size: 12px;
+        line-height: 22px;
+        color: #000000;
+    }
+
+    .item-details__button {
+        padding: 10px 20px;
+        margin-right: 12px;
+        font-size: 10px;
+    }
+
+    .item-details__tag {
+        padding: 6px 10px;
+        margin-left: 0px;
+        margin-top: 4px;
+    }
+
+    .tag-text {
+        margin: 0;
+        font-size: 10px;
+    }
+    
+    /* Блок "Не знаете, с чего начать?" */
+    .start-offer__about-us {
+        position: relative;
+        top: -70px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about__item {
+        width: calc((100% / 3) - 20px);
+        padding: 3% 0;
+    }
+    
+    .start-offer__suggestion {
+        width: 100%;
+        align-items: flex-end;
+    }
+    
+    .start-offer__text {
+        width: 90%;
+        margin-bottom: 0;
+    }
+
+    .start-offer__button {
+        padding: 2% 4%;
+    }
+
+    .partners__slider-item {
+        padding: 5% 5.5%;
+    }
+
+    /* Footer */    
+    .footer-top__right-group {
+        margin-right: 0;
+    }
+    
+    .footer-top__column:nth-of-type(2),
+    .footer-top__column:nth-of-type(3),
+    .footer-top__column:nth-of-type(4) {
+        margin-left: 40px;
+    }
+    
+    .footer__link-left {
+        font-size: calc(12px + 2 * (100vw / 1280));
+    }
+    
+    /* Телефон и эл.почта */
+    .footer__tel, 
+    .footer__mail {
+        font-size: calc(12px + 6 * (100vw / 1280));
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    .header__main-part {
+        background-size: cover;
+    }
+
+    .header-menu .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .header-menu {
+        background-color: rgba(72, 143, 196, 0.4);
+    }
+
+    .nav-menu {
+        justify-content: start;
+        width: 95%;
+    }
+
+    .nav-menu__link, 
+    .header-authorization__link {
+        font-size: calc(10px + 8 * (100vw / 1280));
+    }
+
+    .logo {
+        height: 55px;
+        width: 44px;
+    }
+
+    .preview__text {
+        top: 25%;
+        left: 15%;
+    }
+
+    header .container,
+    footer .container {
+        width: 90%;
+    }
+
+    .footer__logo {
+        width: 39px;
+        height: 38px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header-menu .container {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .header-menu__left-group {
+        justify-content: start;
+        width: 90%
+    }
+    
+    .logo {
+        height: 45px;
+        width: 34px;
+    }
+
+    .header-authorization{
+        min-width: 140px;
+    }
+
+    .nav-menu__link,
+    .header-authorization__link {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .header-authorization__link:last-child::before {
+        position: absolute;
+        content: " ";
+        top: 14px;
+        left: -12px;
+        width: 18px;
+        height: 1px;
+        transform: rotate(90deg);
+        background-color: #FFFEFE;
+    }
+
+    .header__main-part {
+        padding-bottom: 0;
+    }
+
+    .header__content {
+        width: 100%;
+        margin: 55px auto 64px;
+        flex-direction: column;
+        align-items: left;
+    }
+    
+    .header__content-title {
+        width: 75%;
+        line-height: 40px;
+    }
+
+    .header__content-text {
+        width: 75%;
+        margin: 32px 0 55px;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.035em;
+    }
+
+    .header__button-details {
+        padding: 10px 54px;
+        font-size: 14px;
+    }
+
+    .header__center-part {
+        width: 90%;
+    }
+
+    .header__button-left,
+    .header__button-right {
+        display: none;
+    }
+
+    .header__play-button {
+        top: 20%;
+        right: 5%;
+        width: 149px;
+        height: 149px;
+    }
+
+    .preview__text {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        z-index: 2;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+    }
+
+    /* Блок "Персоны" */
+    .persons .container {
+        margin: 40px auto 0;
+    }
+
+    .persons__item {
+        width: calc((100% / 3) - 20px);
+    }
+
+    .persons__image {
+        width: 40%;
+    }
+
+    .persons__text {
+        padding: 6% 1% 0;
+        line-height:18px;
+    }
+
+    /* Блок "Новые программы" */
+    .new-programs {
+        margin: 42px auto 0;
+    }
+
+    .new-programs__title {
+        font-size: 28px;
+    }
+
+    .new-programs__to-all {    
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .new-programs__to-all:hover {    
+        text-decoration: underline;
+    }
+    
+    /* Партнеры */
+    .partners {
+        margin: 44px auto 88px;
+    }
+
+    .partners__title {
+        font-size: 32px;
+    }
+
+    /* Footer */
+    .footer-top {
+        padding: 27px 0 46px;
+    }
+    
+    .footer-top__column:nth-of-type(2) {
+        margin-left: 20px;
+    }
+
+    .footer-top__column:nth-of-type(3) {
+        margin-left: 20px;
+    }
+
+    .footer-top__column:nth-of-type(4) {
+        margin-left: 20px;
+    }
+    
+    .footer__link-left {
+        font-size: 12px;
+    }
+    
+    /* Иконки соц.сетей */
+    .footer__social-item {
+        width: 25px;
+        height: 25px;
+        margin-right: 20px;
+    }
+    
+    /* Телефон и эл.почта */
+    .footer__tel, 
+    .footer__mail {
+        font-size: 12px;
+    }
+
+    .footer__tel{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .logo {
+        height: 35px;
+        width: 34px;
+    }
+    
+    .item-details__tag {
+        display: none;
+    }
+
+    .item-cover-top {
+        min-height: 145px;
+    }
+
+    .item-cover-bottom {
+        min-height: 180px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    /* Header */
+    .header__content {
+        margin: 35px auto 34px;
+    }
+
+    .nav-menu,
+    .header-authorization {
+        display: none;
+    }
+
+    .compact-menu {
+        display: block;
+    }
+    
+    .header__content-text {
+        width: 75%;
+        margin: 32px 0 35px;
+        font-size: 16px;
+    }
+
+    .header__play-button {
+        display: none;
+    }
+
+    .preview__text {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        z-index: 2;
+        line-height: 16px;
+        letter-spacing: 0.01em;
+    }
+
+    /* Блок с персонами */
+    .persons .container {
+        flex-wrap: wrap;
+    }
+
+    .persons__item {
+        width: calc((100% / 2) - 10px);
+        margin: 0 auto 10px;
+    }
+
+    .persons__image {
+        max-width: 100px;
+    }
+
+    .persons__text {
+        margin: 0;
+        padding: 10% 10px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    /* Блок "Новые программы" */
+    .new-programs__title {
+        font-size: 26px;
+    }
+
+    .new-programs__item {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    
+    .new-programs__to-all {    
+        margin-top: 16px;
+    }
+
+    .new-programs__to-all:hover {    
+        text-decoration: underline;
+    }
+
+    /* Карточки с описанием программ */
+    .item__name {
+        font-size: 22px;
+    }
+
+    .item-details__tag {
+        display: block;
+    }
+    
+    .new-programs__cards {
+        margin-top: 10px;
+    }
+
+    .new-programs__item {
+        margin-bottom: 30px;
+    }
+
+    .item-cover-top {
+        min-height: 100px;
+    }
+
+    .item-cover-bottom {
+        min-height: 120px;
+    }
+
+    .item-time{
+        align-items: flex-start;
+    }
+
+    .item-raiting__star {
+        width: 15px;
+        height: 15px;
+        margin-right: 3px;
+    }
+
+    .item-raiting__num {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .item-details__button {
+        box-shadow: 0px 8px 15px rgba(43, 137, 248, 0.45);
+    }
+
+    .item-description {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .tag-text {
+        font-size: 12px;
+    }
+
+    /* "С чего начать"  */
+    .start-offer {
+        margin: 70px auto 0;
+        padding-bottom: 40px;
+    }
+    
+    .start-offer__about-us {
+        top: -30px;
+    }
+    
+    .about__item {
+        width: calc((100%/3) - 20px);
+        padding: 20px 5px 20px;
+    }
+    
+    .about__string {
+        font-size: 12px;
+    }
+    
+    .start-offer__title {
+        line-height: 28px;
+    }
+    
+    .start-offer__text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .start-offer__button {
+        margin-left: 15px;
+        padding: 20px 30px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    /* Партнеры */
+    .partners {
+        margin: 44px auto 88px;
+    }
+
+    .partners__title {
+        font-size: 28px;
+    }
+
+    /* Footer */
+    .footer__logo {
+        width: 40px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-top__left-group {
+        display: block;
+    }
+
+    .footer-top__right-group {
+        justify-content: flex-start;
+    }
+    
+    .footer-top__column:nth-of-type(2),
+    .footer-top__column:nth-of-type(3),
+    .footer-top__column:nth-of-type(4) {
+        margin-left: 0px;
+    }
+
+    .footer__link-left {
+        font-size: 12px;
+    }
+
+    .footer__link-left,
+    .footer__link-left:first-child {
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    
+    /* Иконки соц.сетей */
+    .footer__social-item {
+        margin-right: 8px;
+    }
+    
+    /* Телефон и эл.почта */
+    .footer__tel, 
+    .footer__mail {
+        font-size: 12px;
+    }
+
+    .footer__tel {
+        margin-bottom: 5px;
+    }
+
+    .copyright,
+    .privacy-policy {
+        margin: 15px 0;
+        font-size: 10px;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        z-index: 15;
+    }
+
+    .mobile-menu__burger {
+        background-color:#FFFEFE;
+        color: #000000;
+        padding: 2px 15px;
+        border-radius: 15px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .mobile-menu__text {
+        display: none;
+        position: absolute;
+        top: 30px;
+        right: -400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* Блок с персонами */
+    .persons .container {
+        flex-direction: column;
+    }
+
+    .persons__item {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    .persons__text {
+        margin: 0;
+        padding: 10% 15% 10% 0;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .item-details__tag {
+        display: none;
+    }
+    
+    /* "С чего начать"  */
+    .start-offer__about-us {
+        flex-direction: column;
+    }
+    
+    .about__item {
+        width: 90%;
+        margin: 0 auto 10px;
+        padding: 0;
+    }
+
+    .start-offer__suggestion {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .start-offer__title{
+        margin-top: 0;
+    }
+
+    .start-offer__button {
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 15px 30px;
+    }
+
+    .about__string {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 20px;
+    }
+
+    .about__number {
+        margin-right: 10px;
+        line-height: 32px;
+    }
+
+    /* Блок "Персоны" */
+    .persons__text {
+        padding: 8% 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+	/* Header */
+    .nav-menu,
+    .header-authorization,
+    .header__content-text,
+    .header__preview {
+        display: none;
+    }
+
+    .header__content-title {
+        font-size: calc(24px + (35 + 35 * 0.7) * ((100vw - 320px) / 1280));
+        line-height: 28px;
+    }
+
+    .header__button-details {
+        margin-top: 30px;
+    }
+
+    /* Блок "Персоны" */
+    .persons__text {
+        padding: 5% 10px;
+    }
+
+    /* Блок "Новые программы" */
+    .new-programs__item {
+        width: 100%;
+    }
+
+    .new-programs__title {
+        line-height: 28px;
+    }
+
+    .new-programs__to-all {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    /* Партнеры */
+    .partners {
+        margin: 44px auto 88px;
+    }
+
+    .partners__title {
+        font-size: 28px;
+    }
+
+    .partners__slider {
+        overflow: hidden;
+    }
+
+    .partners__slider-item {
+        padding: 20px 24px;
+        margin: 0 auto;
+        min-width: 30%;
+    }
+
+    .partners__slider-item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Footer */
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer-top__right-group {
+        margin-top: 30px;
+    }
+
+    .copyright,
+    .privacy-policy a {
+        margin: 15px 0;
+        font-size: 10px;
+    }
+
+}
